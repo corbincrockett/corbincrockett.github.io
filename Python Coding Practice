@@ -1,0 +1,11 @@
+Grocery_item_1 = "Bananas, "
+Grocery_item_2 = "Chocolates, "
+
+Grocery_list = Grocery_item_1 + Grocery_item_2
+
+# Oh no, I forgot about cranberries and strawberries!
+
+Grocery_list += "Cranberries, "
+Grocery_list += "Strawberries"
+
+print(Grocery_list)

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>I Am Corbin Crockett</title>
+    <link href="./stylesheet.css" rel="stylesheet">
+    </head>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        </style>
+    <body>
+        <header>
+    
+            <nav>
+                <a href="./index.html"><button class="home">Home</button></a>
+                <a href="./contact.html"><button class="contact">Contact</button></a>
+
+            </nav>
+            <span class="info">
+                <h1 class="name">Corbin Crockett</h1>
+                <h1 class="phrase">Man, Myth, Legend</h1>
+            </span>
+        </header>
+        
+        <main>
+        <div class="box">
+            <div class="inbox1">
+                <h2 class="maintop">Upbringing</h2>
+            
+
+                <article>
+                    <p>From the ripe young age of birth, Corbin Crockett has helped countless lost sheep find their way. As a black sheep himself, Corbin always strived to fit in with the crowd- often to no evail. His glorious
+                        abilities made fools of the other children. He mocked them with his brain, willpower, might, and good looks. As he walked down the halls at school, the children we stunned to see a Greek god living among them.
+                    </p>
+                </article>
+            </div>
+
+            <div class="inbox1">
+                <h2>From Special Needs to Special</h2>
+           
+                <article>
+                    <p>Growing up on the hard streets of Olathe, Kansas, Corbin pushed against all odds to find himself a better living environment. After being struck by a lightning bolt on a cold, winter's day, Corbin gained
+                an IQ of 150. From then on, his brain buzzed at blazing speeds, allowing him to win a gold medal in every science fair he participated in.</p>
+                </article>
+            </div>
+
+            <div class="inbox1">
+                <h2>Defending Against Abuse</h2>
+            
+                <article>
+                    <p>As a naturally gifted kid with unspeakable talent, Corbin forced himself to harness his abilities and only turn them on when need be. His parents, both low-wage factory workers, infinitely admired his skill, and everyone
+                    equally admired his swiftness in stress and alarm. The man, the myth- could not be stopped.</p>
+                </article>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="inbox2">
+                <h2>Getting Stopped</h2>
+            
+                <article>
+                    <p>Although his abilities were admirable, Corbin suddenly found himself tumbling down a road of dispair as his girlfriend, ..., didn't exist. Without any romance, Corbin fell into the vicious cycle of jealousy
+                    and, for the first time, admired his peers. Where he could not find happiness before, he could now. Booze and drugs filled his lonesome heart until it couldn't anymore, and then it bled into his other organs.
+                    </p>
+                </article>
+            </div>
+                
+            <div class="inbox2">
+                <h2>From Stoned to Toned</h2>
+            
+                <article class="bottomarticle">
+                    <p>Seeing as his devious desires got him no closer to relief, Corbin stopped drinking and started thinking. He examined his life, lonely with no wife, built like a stick, now ready to get ripped, self-esteem low
+                    now he cannot be controlled, all fog is now clear; the weights, the gym- is here</p>
+                </article>
+            </div>
+        </div>
+
+
+        </main>
+        
+        
+        <audio id="jas" src="jazz.mp3" type="audio/mpeg"> <!-- Audio will only play if the audio file is in the same folder as the html. If you don't see the audio folder in the tab to the left, sharing a parent with the html, it will not work.-->
+           
+        </audio>
+    
+            <button class="buttonbelow" onclick="togglePlayPause()">Listen To His Lullaby</button>
+        <!-- <script> equals java script, it's a switch in language but still in this HTML file, that's why it needs the <script> element -->
+       
+       <script>
+            function togglePlayPause() {
+                var audio = document.getElementById("jas");
+
+                if (audio.paused || audio.ended) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+
+            }
+
+        </script>
+
+    </body>
+</html>

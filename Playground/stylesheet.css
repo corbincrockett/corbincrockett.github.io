@@ -1,0 +1,115 @@
+
+
+
+* {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(13, 21, 104);
+}
+
+article {
+    font-size: 22px;
+}
+
+h1.name {
+    padding-top: 130.92px; 
+}
+
+h1.phrase {
+    padding-bottom: 20px;
+}
+
+.info {
+    display: block;
+    color: white;
+    background-color: purple
+}
+
+nav {
+    background-color:white;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    float: top;
+}
+
+nav button {
+    font-size: 30px;
+    padding: 5px 200px;
+    position: relative;
+    text-transform: uppercase;
+    background-color:initial;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    border-color: rgb(0, 4, 255);
+}
+
+.home {
+    position: relative;
+    right: 10%
+}
+
+.contact {
+    position: relative;
+    left: 10%
+}
+
+main {
+    position: relative;
+    background-color: ghostwhite;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inbox1 {
+    flex-grow: 1;
+    width: 0;
+    padding: 0 3%;
+    padding-top: 5%
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inbox2 {
+    flex-grow: 1;
+    width: 0;
+    padding: 0 3%;
+    padding-top: 2%
+}
+
+.box, .box2 {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.name {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.phrase {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.buttonbelow {
+    display: block;
+    margin: 30px auto; 
+}
+
